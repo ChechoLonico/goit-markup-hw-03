@@ -25,6 +25,7 @@
     background-color: var(--color-blanco);
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom:  1px solid #ECECEC;
 }
 .container{
     width: 1200px; 
@@ -188,7 +189,6 @@
 }
 .team ul{
     gap: 37px;
-    border-radius: 0px, 0px, 4px, 4px;
 }
 .team h2{
     font-family: 'Roboto', sans-serif;
@@ -258,17 +258,57 @@
 
 
 /*Style cuerpo pagina portafolio*/
-.project-button{font-family: 'Roboto', sans-serif;
-    font-weight: 500; font-size: 16px;
-    line-height: 1.62; letter-spacing: 0.03em;
-    text-align: center; color: var(--color-gris-oscuro);}
-.project-button:hover, .project-button:focus{background-color: var(--color-azul-claro); color: var(--color-blanco);}
-.project-title{font-family: 'Roboto', sans-serif;
-    font-weight: 700; font-size: 18px;
-    line-height: 2; letter-spacing: 0.06em;
-    color: var(--color-gris-oscuro);}
-.project-clasification{font-family: 'Roboto', sans-serif;
-    font-weight: 400; font-size: 16px;
-    line-height: 1.87; letter-spacing: 0.03em;
-    color: var(--color-beige);}
+.project-types ul{
+    width: 620px;
+    height: 54px;
+    display:flex;
+    align-items: center;
+    margin: auto;
+    gap: 8px;
+}
+.project-button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--color-gris-oscuro);
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border-style: none;
+    padding: 6px 24px;
+}
+.project-button:hover, .project-button:focus{
+    background-color: var(--color-azul-claro);
+    color: var(--color-blanco);
+}
+.card li{
+    width: 370px;
+    border: 1px solid #EEEEEE;
+}
+.card ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 34px;
+    margin-bottom: 82px;
+    justify-content: center;
+}   
+.project-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-gris-oscuro);
+}
+.project-clasification{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--color-beige);
+}
 
